@@ -22,11 +22,11 @@ spec:
         imagePullPolicy: Always  
         resources:
           requests:
-            memory: "80Mi"
-            cpu: "600m"
+            memory: "64Mi"
+            cpu: "250m"
           limits:
-            memory: "3048Mi"
-            cpu: "1000m"      
+            memory: "1024Mi"
+            cpu: "500m"      
         env:
         - name: URL
           valueFrom:
