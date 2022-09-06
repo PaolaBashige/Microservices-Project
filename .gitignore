@@ -14,6 +14,7 @@ npm-debug.log*
 env-configmap.yaml
 env-secret.yaml
 aws-secret.yaml
+.travis.yml
 .idea/
 .ionic/
 .sourcemaps/
